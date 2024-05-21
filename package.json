@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mescius/spread-sheets": "^17.0.9",
+    "@mescius/spread-sheets-charts": "^17.0.9",
+    "@mescius/spread-sheets-io": "^17.0.9",
+    "@mescius/spread-sheets-react": "^17.0.9",
+    "@mescius/spread-sheets-shapes": "^17.0.9",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,6 +15,7 @@
     "@types/node": "^16.18.97",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
+    "file-saver": "^2.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -39,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7"
   }
 }
